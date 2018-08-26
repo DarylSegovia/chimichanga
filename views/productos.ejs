@@ -44,16 +44,24 @@
                                             </center>
                                         </div>
                                         <div class="product-body">
+                                            <p class="product-category">Vendidos :
+                                                <%= documentos[i].vendidos %> u</p>
                                             <p class="product-category">Tecnología :
                                                 <%= documentos[i].tecnologia %>
                                             </p>
-                                            <h3 class="product-name">
+                                            <h3 class="product-name"> Título :
                                                 <%= documentos[i].titulo %>
                                             </h3>
-                                            <h2 class="product-price">
+                                            <h3 class="product-name"> Descripción :
+                                                <%= documentos[i].descripcion %>
+                                            </h3>
+                                            <h2 class="product-price"> Disponibles :
                                                 <%= documentos[i].existencia %>
                                             </h2>
-                                            <h4 class="product-price">$
+                                            <h3 class="product-name"> Autor:
+                                                <%= documentos[i].autor %>
+                                            </h3>
+                                            <h4 class="product-price">Precio: $
                                                 <%= documentos[i].precio %>
                                             </h4>
                                             <hr>
